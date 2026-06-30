@@ -1,0 +1,24 @@
+3)	Write a program to find the largest element in the list.
+
+code:
+
+n=int(input("enter no of elememts:"))
+numbers=[]
+for i in range(n):
+    nums=int(input("enter num:"))
+    numbers.append(nums)
+    largest=numbers[0]
+for i in range(0,n):
+    if numbers[i]>largest:
+        largest=numbers[i]
+print("largest:",largest)
+
+output:
+
+enter no of elememts:5 
+enter num:24 
+enter num:36
+enter num:12
+enter num:8
+enter num:76
+largest: 76
