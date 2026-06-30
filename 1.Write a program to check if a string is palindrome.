@@ -1,0 +1,18 @@
+1)	Write a program to check if a string is palindrome.
+
+Code:
+
+string=input("enter string")
+left=0
+right=len(string)-1
+palindrome=True
+while left<right:
+    if string[left]!=string[right]:
+        palindrome=False
+        break;
+    left=left+1
+    right=right-1
+if palindrome:
+    print("palindrome")
+else:
+    print("Not a palindrome")
