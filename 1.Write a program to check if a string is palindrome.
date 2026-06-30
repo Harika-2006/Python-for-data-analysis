@@ -16,3 +16,10 @@ if palindrome:
     print("palindrome")
 else:
     print("Not a palindrome")
+
+output:
+
+enter string:malayalam
+palindrome
+enter string:abbab
+Not a palindrome
