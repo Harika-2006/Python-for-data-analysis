@@ -1,0 +1,18 @@
+4) Write a program to reverse a string 
+
+Code
+string = input("Enter a string: ")
+
+reverse = ""
+
+for i in string:
+    reverse = i + reverse
+
+print("Reversed string:", reverse)
+
+Output:
+
+Enter a string: deepu
+Reversed string: upeed
+Enter a string: harika
+Reversed string: akirah
