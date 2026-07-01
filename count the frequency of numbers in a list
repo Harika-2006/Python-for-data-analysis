@@ -1,0 +1,29 @@
+5) Write a program to count the frequency of numbers in a list 
+Code:
+
+n=int(input("enter no of elements"))
+list=[]
+for i in range(n):
+    num=int(input("enter num"))
+    list.append(num)
+freq={}    
+for num in list:
+    if num in freq:
+        freq[num]=freq[num]+1
+    else:
+        freq[num]=1
+print("frequency of numbers in a list:",freq[num])
+for key in freq:
+    print(key,":",freq[key])
+
+Output:
+
+enter no of elements5
+enter num67
+enter num78
+enter num67
+enter num78
+enter num67
+frequency of numbers in a list: 3
+67 : 3
+78 : 2
